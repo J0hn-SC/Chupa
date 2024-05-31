@@ -1,0 +1,37 @@
+
+// vino, pisco, whisky, ron, vodka, tequila, otros
+// jugos, gaseosas, jugo casero, jarabe
+// Ingredientes puede ser tragos
+// Los q so tragos de misma marca pero diferente version/calidad(ejemplo ron black barrel, cartavio o blanco)
+// Etiquetas
+// Q tan fuerte es? Sueve, Medio, Fuerte
+// Q tan dulce es? muy suave, 
+// 
+// Donde se suela usar? Fiesta, Compromiso, Boda, Chupa tranqui
+{
+    "id": "pure123",
+    "name": "Ron Cartavio Black Barrel",
+    "description": "Ron de 3 años, se recomienda mezclar con una gaseosa de 3L, para mas suavidad con hielo",
+    "type": "Ron", 
+    "quantity": ["1L"],
+    "labels": ["fiesta", "reunion", "normal"]
+},
+{
+    "id": "supl123",
+    "name": "Coca Cola",
+    "description": "Gaseosa cola negra para hacer mezclas", //usar una descripcion corta y clásica
+    "type": "Gaseosa", 
+    "quantity": ["3L"],
+    "labels": ["fiesta", "romantico", "duro"]
+}
+//Combinaciones
+{
+    "id": "comb426",
+    "name": "Cuba libre-Black Barrel",
+    "description": "Basado en un Ron Cartavio Black barrel combinado con una cocacola de 3 L y jugo de un limon, mezclar en jarra",
+    "labels": ["Normal","Suave" ], 
+    "combination" : ["pure123", "supl123"],
+    "receipt": "- Mezclar el ron con la Gaseosa en un recipiente 
+                - Agregar Hielo al gusto
+                - Agregar sumo de 1 Limon"
+}
